@@ -1,10 +1,11 @@
 li {
   list-style: none;
+  margin-bottom: 1rem;
 }
 
 li a {
   text-decoration: none;
-  color: white;
+  color: #fdfbf4;
 }
 
 #footer {
@@ -18,6 +19,7 @@ li a {
 #footer .img-logo .logo {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 #footer .img-logo .logo img {
   width: 55%;
@@ -27,32 +29,37 @@ li a {
   justify-content: space-evenly;
 }
 #footer .img-logo .logo-reseaux .reseaux img {
-  width: 85%;
+  width: 80%;
 }
 #footer .info {
   display: flex;
   background-color: #ff6364;
   width: 50%;
   justify-content: space-evenly;
+  padding-top: 1rem;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+}
+#footer .info h3 {
+  margin-bottom: 2rem;
+  color: #504D4D;
+  font-weight: bold;
 }
 #footer .img-appli {
   display: flex;
   flex-direction: column;
 }
 #footer .img-appli h3 {
-  text-align: center;
+  text-align: right;
   font-size: 16px;
+  margin-bottom: -9px;
 }
 #footer .img-appli .image-appli {
   display: flex;
 }
-#footer .img-appli .image-appli .hand img {
-  width: 80%;
-}
 #footer .img-appli .image-appli .appli {
   align-self: center;
+  margin-left: 2rem;
 }
 #footer .img-appli .image-appli .appli img {
   width: 80%;
