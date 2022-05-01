@@ -11,20 +11,51 @@ li a {
   display: flex;
   justify-content: center;
 }
-#footer .logo img {
-  width: 45%;
+#footer .img-logo {
+  margin: 2rem;
+  align-self: center;
 }
-#footer .logo-reseaux img {
-  width: 25%;
+#footer .img-logo .logo {
+  display: flex;
+  justify-content: center;
+}
+#footer .img-logo .logo img {
+  width: 55%;
+}
+#footer .img-logo .logo-reseaux {
+  display: flex;
+  justify-content: space-evenly;
+}
+#footer .img-logo .logo-reseaux .reseaux img {
+  width: 85%;
 }
 #footer .info {
   display: flex;
   background-color: #ff6364;
   width: 50%;
-  height: 30vh;
   justify-content: space-evenly;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+}
+#footer .img-appli {
+  display: flex;
+  flex-direction: column;
+}
+#footer .img-appli h3 {
+  text-align: center;
+  font-size: 16px;
+}
+#footer .img-appli .image-appli {
+  display: flex;
+}
+#footer .img-appli .image-appli .hand img {
+  width: 80%;
+}
+#footer .img-appli .image-appli .appli {
+  align-self: center;
+}
+#footer .img-appli .image-appli .appli img {
+  width: 80%;
 }
 
 /*# sourceMappingURL=stylle.css.map */

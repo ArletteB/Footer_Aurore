@@ -9,25 +9,54 @@ li a {
 #footer {
     display: flex;
     justify-content: center;
-    .logo {
-        
-        img {
-            
-            width: 45%;   
+    .img-logo {
+        margin: 2rem;
+        align-self: center;
+        .logo {
+            display: flex;
+            justify-content: center;
+            img {  
+                width: 55%;   
+            }
+        }  
+        .logo-reseaux {
+            display: flex;
+            justify-content: space-evenly;
+            .reseaux img {
+                width: 85%;
+            }
         }
     }
-        
-    .logo-reseaux img {
-        width: 25%;
-    }
+    
     .info {
         display: flex;
         background-color: #ff6364;
         width: 50%;
-        height: 30vh;
         justify-content: space-evenly;
         border-top-left-radius:2rem ;
         border-top-right-radius: 2rem;
+    }
+    .img-appli {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            text-align: center;
+            font-size: 16px;
+        }
+        .image-appli {
+            display: flex;
+            .hand{
+                img{
+                    width: 80%;
+                }
+            }
+            .appli{
+                align-self: center;
+                img{
+                    width: 80%;
+                }
+            }
+        }
     }
     
 }
