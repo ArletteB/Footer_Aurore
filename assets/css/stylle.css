@@ -1,3 +1,30 @@
+li {
+  list-style: none;
+}
 
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+#footer .logo img {
+  width: 45%;
+}
+#footer .logo-reseaux img {
+  width: 25%;
+}
+#footer .info {
+  display: flex;
+  background-color: #ff6364;
+  width: 50%;
+  height: 30vh;
+  justify-content: space-evenly;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
 
 /*# sourceMappingURL=stylle.css.map */
