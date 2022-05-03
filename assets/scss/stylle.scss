@@ -70,4 +70,54 @@ li a {
         }
     }
     
+    
+}
+ // MEDIA QUERIES
+
+@media screen and (max-width: 768px) {
+    #footer {
+        width: 100%;
+        .img-logo {
+            margin: none;
+            width: 16%;
+            .logo {
+                img {  
+                    width: 55%;   
+                }
+            }  
+            .logo-reseaux {
+                justify-content: space-between;
+                .reseaux img {
+                    width: 80%;
+                }
+            }
+        }
+        
+        .info {
+            width: 63%;
+            height: auto;
+            justify-content: space-between;
+        }
+        .img-appli {
+           width: 25%;
+            .image-appli {
+                
+                .hand{
+                     img{
+                         width: 50%;
+                     }
+                }
+                .appli{
+                    align-self: center;
+                    margin-left: 2rem;
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+         
+        
+        
+    }
 }

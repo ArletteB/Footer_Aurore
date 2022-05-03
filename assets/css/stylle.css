@@ -65,4 +65,41 @@ li a {
   width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+  #footer {
+    width: 100%;
+  }
+  #footer .img-logo {
+    margin: none;
+    width: 16%;
+  }
+  #footer .img-logo .logo img {
+    width: 55%;
+  }
+  #footer .img-logo .logo-reseaux {
+    justify-content: space-between;
+  }
+  #footer .img-logo .logo-reseaux .reseaux img {
+    width: 80%;
+  }
+  #footer .info {
+    width: 63%;
+    height: auto;
+    justify-content: space-between;
+  }
+  #footer .img-appli {
+    width: 25%;
+  }
+  #footer .img-appli .image-appli .hand img {
+    width: 50%;
+  }
+  #footer .img-appli .image-appli .appli {
+    align-self: center;
+    margin-left: 2rem;
+  }
+  #footer .img-appli .image-appli .appli img {
+    width: 80%;
+  }
+}
+
 /*# sourceMappingURL=stylle.css.map */
